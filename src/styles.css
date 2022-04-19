@@ -1,0 +1,113 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+div#calculadora
+{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 20%;
+    background-color: #808080;
+}
+
+div#cuadriculas
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 40%;
+    width: 100%;
+}
+
+/* Pantalla de la calculadora */
+
+div#input
+{
+    display: flex;
+    justify-content: center;
+}
+
+input
+{
+    margin-top: 4%;
+    border: 2px solid #D1FF93;
+    width: 90%;
+    background-color: #ACFF38;
+    text-align: right;
+    font-size: xx-large;
+}
+
+/* Panel (teclado) */
+
+div#alineacionPanel
+{
+    display: flex;
+    justify-content: center;
+}
+
+div#panel
+{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 5%;
+    row-gap: 10%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+/* Panel superior */
+
+div#fila1
+{
+    display: grid;
+    grid-template-columns: 45% 20% 20%;
+    grid-template-rows: 100%;
+    column-gap: 5%;
+    height: 100%;
+}
+
+/* Panel de botones numéricos */
+
+div#fila2
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 50% 50% 50%;
+    column-gap: 5%;
+    row-gap: 5%;
+}
+
+/* Panel Inferior */
+
+div#fila3
+{
+    display: grid;
+    grid-template-columns: 45% 20% 20%;
+    grid-template-rows: 100%;
+    column-gap: 5%;
+    height: 50%;
+    margin-top: 17%;
+}
+
+button
+{
+    border: 2px solid black;
+    font-size: large;
+}
+
+button:hover:enabled
+{
+    border: none;
+    font-size: large;
+    background-color: aliceblue;
+    font-weight: 900;
+}
+
+.especial
+{
+    color: #D75C4B;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

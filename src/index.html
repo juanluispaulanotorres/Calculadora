@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ejercicio FlexBox</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src="typescript.js"></script>
+</head>
+<body>
+  <div id="calculadora">
+    <div id="cuadriculas">
+      <div id="input">
+        <input type="text" name="txtDigitos" id="txtDigitos" placeholder="0." readonly>
+      </div>
+      <div id="alineacionPanel">
+        <div id="panel">
+          <div id="fila1">
+              <button class="operaciones especial" id="exp" disabled>exp</button>
+              <button class="operaciones especial" id="division">/</button>
+              <button class="operaciones especial" id="multiplicacion">X</button>
+          </div>
+          <div id="fila2">
+              <button class="central" id="7">7</button>
+              <button class="central" id="8">8</button>
+              <button class="central" id="9">9</button>
+              <button class="central operaciones especial" id="resta">-</button>
+
+              <button class="central" id="4">4</button>
+              <button class="central" id="5">5</button>
+              <button class="central" id="6">6</button>
+              <button class="central operaciones especial" id="suma">+</button>
+
+              <button class="central" id="1">1</button>
+              <button class="central" id="2">2</button>
+              <button class="central" id="3">3</button>
+              <button class="central especial" id="igual">=</button>
+          </div>
+          <div id="fila3">
+            <button class="inferior" id="0">0</button>
+            <button class="inferior" id="punto"><strong>.</strong></button>
+            <button class="inferior especial" id="borrado">C</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
